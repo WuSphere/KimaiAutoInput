@@ -1,11 +1,9 @@
 {
-    "login": {
-      "username": "yang.qingwu",
-      "password": "yang123456"
-    },
-    "proxy": "http://A7757:yang7722@10.130.120.25:8080",
-    "excel_path": "C:\\DriveH\\GitHub\\KimaiAutoInput\\勤怠データ.xlsx",
-    "website_url": "https://kimai.wsst.co.jp:31026/ja/timesheet",
-    "chromedriver_path": "C:\\path\\to\\chromedriver.exe"
-  }
-  
+  "login": {
+    "username": "yang.qingwu",
+    "password": "*********"
+  },
+  "proxy": "http://{職員ID}:{PaperNonPassword}@10.130.120.25:8080",
+  "excel_path": "C:\\DriveH\\GitHub\\KimaiAutoInput\\勤怠データ.xlsx",
+  "website_url": "https://kimai.wsst.co.jp:31026/ja/timesheet"
+}

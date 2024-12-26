@@ -162,7 +162,7 @@ for index, row in df.iterrows():
 
         # 作業時間
         BaseUtils.wait_and_send_keys(
-            driver, By.ID, "timesheet_edit_form_end_time", str(row["作業時間"])
+            driver, By.ID, "timesheet_edit_form_duration", str(row["作業時間"])
         )
         # プロジェクト選択
         BaseUtils
